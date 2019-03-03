@@ -95,30 +95,30 @@ class EmailEngine {
 		// basic sanity check
 		$emailPreCheck = !filter_var($email, FILTER_VALIDATE_EMAIL) === false;
 		if ($emailPreCheck) {
-			$this->emailEngineLogger->info("EmailEngine>> Email matches regex check.. Testing with Mailgun..");
+			$this->emailEngineLogger->info('EmailEngine>> Email matches regex check.. Testing with Mailgun..');
 		}
 
 		// if no external checking
 		if (!Config::get('external_validation', false) && $emailPreCheck) {
-			$this->emailEngineLogger->info("EmailEngine>> External validation disabled, email passed");
+			$this->emailEngineLogger->info('EmailEngine>> External validation disabled, email passed');
 			return $emailPreCheck;
 		}
 
 		// try the external validation
 		try {
-			$result = $this->publicMailgun->get("address/validate", ['address' => $email]);
+			$result = $this->publicMailgun->get('address/validate', ['address' => $email]);
 			$this->emailEngineLogger->info("EmailEngine>> API response: " . var_export($result, true));
 
 			$valid = $result->http_response_body->is_valid > 0;
 			$this->emailEngineLogger->info("EmailEngine>> API.http_response_body.is_valid=" . ($valid ? "true" : "false") . "");
 
 			if ($emailPreCheck && $valid) {
-				$this->emailEngineLogger->info("EmailEngine>> Email pre-check and API check both passed");
+				$this->emailEngineLogger->info('EmailEngine>> Email pre-check and API check both passed');
 			}
 
 			if ($emailPreCheck) {
 				if (!$valid) {
-					$this->emailEngineLogger->info("EmailEngine>> Email pre-check passed but API check did not pass");
+					$this->emailEngineLogger->info('EmailEngine>> Email pre-check passed but API check did not pass');
 				}
 			}
 
@@ -126,7 +126,7 @@ class EmailEngine {
 		} catch(Exception $e) {
 			$this->emailEngineLogger->error("EmailEngine>> Failure while checking email: {$email}");
 			$this->emailEngineLogger->error("EmailEngine>> {$e->getMessage()}");
-			$this->emailEngineLogger->error("EmailEngine>> Using normal means to check email..");
+			$this->emailEngineLogger->error('EmailEngine>> Using normal means to check email..');
 
 			return $emailPreCheck;
 		}
@@ -166,9 +166,14 @@ class EmailEngine {
 		$to = $parameters['to'];
 		$bcc = $parameters['bcc'];
 		$from = $parameters['from'];
+		$replyTo = $parameters['reply-to'];
 		$subject = $parameters['subject'];
 		$text = $parameters['text'];
 		$html = $parameters['html'];
+
+		if (!isset($parameters['from'])) {
+			$parameters['from'] = getenv('ADMINTOOLS_FROM');
+		}
 
 		$response = false;
 		try {
@@ -176,12 +181,13 @@ class EmailEngine {
 				'from' => $from,
 				'to' => $to,
 				'bcc' => $bcc,
+				'h:reply-to' => $replyTo,
 				'subject' => $subject,
 				'text' => $text,
 				'html' => $html
 			]);
 		} catch (\RuntimeException $e) {
-			$this->emailEngineLogger->error("EmailEngine>> RuntimeException thrown");
+			$this->emailEngineLogger->error('EmailEngine>> RuntimeException thrown');
 			$this->emailEngineLogger->error("EmailEngine>> {$e->getMessage()}");
 			$this->emailEngineLogger->error("EmailEngine>> " . json_encode($parameters));
 		}

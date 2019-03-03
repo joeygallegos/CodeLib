@@ -104,16 +104,16 @@ class Config extends Eloquent {
 
 	public static function getRaw($section = '', $defaultValue = '') {
 		$item = self::where('configuration_key', '=', $section)->first();
-		$returnedValue = $item->configuration_key;
+		$returnedValue = $item->configuration_value;
 		
-		// Return default value
+		// return default value
 		if (is_null($returnedValue) || $returnedValue === '') return $defaultValue;
 		return $returnedValue;
 	}
 
 	public static function getArrayableData() {
 		$arr = [];
-		foreach (Config::all() as $item) {
+		foreach (self::all() as $item) {
 			$arr[$item->configuration_key] = $item;
 		}
 		return $arr;
