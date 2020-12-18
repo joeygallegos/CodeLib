@@ -1,0 +1,662 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"SESSION",
+				"SESSION_CHECK"
+			],
+			[
+				"use",
+				"useTraditionalCheck"
+			],
+			[
+				"success",
+				"successfully"
+			],
+			[
+				"param",
+				"paramData"
+			],
+			[
+				"para",
+				"paramData"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"joey",
+				"phone_joey"
+			],
+			[
+				"if",
+				"if\tTwig : If"
+			],
+			[
+				"is",
+				"isNullOrEmptyString($string)\tmixed"
+			],
+			[
+				"array",
+				"array_push"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"m",
+				"m-a\tmargin: auto;"
+			],
+			[
+				"iss",
+				"includecss\tincludeCss"
+			],
+			[
+				"di",
+				"d-ib\tdisplay: inline-block;"
+			],
+			[
+				"font",
+				"font-size: "
+			],
+			[
+				"transpa",
+				"transparentize\tSass-function"
+			],
+			[
+				"youtube",
+				"youtubeVideo"
+			],
+			[
+				"youtu",
+				"youtubeVideo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 113.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				" isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"PackageC",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"composer update",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-3/04-04-19-AdminTools.log",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/middleware/BlockAddressMiddleware.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/logs/03-04-19-contactForm.log",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-3/03-05-19-contactForm.log",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-3/03-05-19-cache.log",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-3/03-04-19-contactFormLogger.log",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-3/01-04-19-contactFormLogger.log",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-2/03-03-19-contactForm.log",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/models/EmailEngine.php",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/Models/EmailEngine.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/views/contact.twig",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/logs/03-03-19-emailEngine.log",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/views/home.twig",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/validation/Validator.php",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/Models/Config.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/models/Config.php",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/spread.sh",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/logs/03-03-19-contactForm.log",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/respect/validation/library/Validator.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/middleware.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/respect/validation/docs/rules/CallableType.md",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/respect/validation/library/Rules/ObjectType.php",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/Models/CacheEngine.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/backup.sh",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/HomeController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/todo.txt",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/routes.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/vlucas/phpdotenv/src/Validator.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/webmozart/assert/src/Assert.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/env/config.env",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/EmailEngine.php",
+		"/C/MAMP/logs/phperror.log",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/fileList.txt",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/share.bat",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/middleware.php",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/Config.php",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/models/Config.php",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/CacheEngine.php",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/models/Album.php",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/models/Cookie.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/models/SuperUserLogin.php",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/models/CacheEngine.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/models/Sass.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/models/Rejection.php",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/models/SuperUserLogin.php",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/routes.php",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/routes-admin.php",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/bootstrap.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/bootstrap.php",
+		"/C/Users/Joey/Dropbox/Web Work/evan/app/core.php",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-2/apache-errors.log",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-2/config.env",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-2/apache-access.log",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/delight-im/cookie/src/Session.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/BaseProjectController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/nesbot/carbon/src/Carbon/Carbon.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/support/Carbon.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/database/Eloquent/Model.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/AdminToolsController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/AdminProjectController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/PageManagementController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/ResourceManagementController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/ServicesAdminController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/slim/slim/Slim/Http/Response.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/symfony/polyfill-mbstring/Mbstring.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/support/Arr.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/support/Collection.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/app/layout/base.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/app/layout/page.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/app/init.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/public/admin/create/generate.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/public/admin/index.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/public/admin/test.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/public/index.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/public/error.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/app/classes/User.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/app/classes/UserManager.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/app/classes/View.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/app/classes/DB.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/app/classes/Cookie.php",
+		"/C/Users/Joey/Dropbox/Web Work/mdkore/kore-old/app/classes/API.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/support/helpers.php",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/ft32.txt",
+		"/C/Users/Joey/Dropbox/Web Work/SharedLibrary/EmailEngine.php",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-2/config 2.env",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/ImageAPIController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/routes-admin.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/slim/flash/src/Messages.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/middleware/ValidationErrorsMiddleware.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/views/admintools/services/view.services.twig",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/models/Service.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/ServicesController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/views/admintools/home.twig",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/models/ProjectImage.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/env/config.env.example",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/controllers/ImageController.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/database/Capsule/Manager.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/helpers.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/logs/01-19-19-projectLogger.log",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/views/admintools/project-edit.twig",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/slim/slim/Slim/Router.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/models/Project.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/views/admintools/resourcemanagement/desktop.twig",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/views/admintools/header.twig",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/models/FileResource.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/database/Query/Builder.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/database/Eloquent/Builder.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/composer.json",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/symfony/finder/SplFileInfo.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/respect/validation/library/Rules/AllOf.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/guzzlehttp/psr7/src/UploadedFile.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/database/Eloquent/SoftDeletes.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/guzzlehttp/psr7/src/Response.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/guzzlehttp/psr7/src/Request.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/slim/slim/Slim/Http/Uri.php",
+		"/C/Users/Joey/AppData/Local/Temp/fz3temp-2/php.ini",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/middleware/AdminToolsMiddleware.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/logs/01-17-19-cache.log",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/illuminate/database/ConnectionResolver.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/vendor/monolog/monolog/src/Monolog/Logger.php",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/logs/01-17-19-projectLogger.log",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/public/assets/scripts/admin.js",
+		"/C/Users/Joey/Dropbox/Web Work/jaushua/app/views/admintools/edit-content.twig",
+		"/C/Users/Joey/Dropbox/Web Work/upld/composer.json",
+		"/E/Users/BlackBare/.gitconfig",
+		"/E/Users/BlackBare/.bash_history",
+		"/F/desktop.ini",
+		"/C/Users/Joey/AppData/Local/PHP Language Server/2%3Ailluminate%2Fsupport%3A4.2.17"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "EmailEngine.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"respect",
+				"vendor\\respect\\validation\\docs\\rules\\CallableType.md"
+			],
+			[
+				"Collection",
+				"vendor\\illuminate\\support\\Collection.php"
+			],
+			[
+				"response",
+				"vendor\\guzzlehttp\\psr7\\src\\Response.php"
+			],
+			[
+				"request",
+				"vendor\\guzzlehttp\\psr7\\src\\Request.php"
+			],
+			[
+				"http",
+				"vendor\\slim\\slim\\Slim\\Http\\Uri.php"
+			],
+			[
+				"edit-co",
+				"app\\views\\admintools\\edit-content.twig"
+			],
+			[
+				"ValidationException",
+				"vendor\\respect\\validation\\library\\Exceptions\\ValidationException.php"
+			],
+			[
+				"PDOException",
+				"vendor\\respect\\validation\\library\\Exceptions\\DateException.php"
+			],
+			[
+				"scss",
+				"public\\assets\\css\\style.css"
+			],
+			[
+				"header",
+				"app\\views\\templates\\header.twig"
+			],
+			[
+				"adm",
+				"public\\assets\\scss\\admin.scss"
+			],
+			[
+				"helper",
+				"app\\helpers.php"
+			],
+			[
+				"single-se",
+				"app\\views\\single-service.twig"
+			],
+			[
+				"admin.",
+				"app\\routes-admin.php"
+			],
+			[
+				"pagemana",
+				"app\\controllers\\PageManagementController.php"
+			],
+			[
+				"admin.js",
+				"public\\assets\\scripts\\admin.js"
+			],
+			[
+				"functions",
+				"vendor\\guzzlehttp\\psr7\\src\\functions.php"
+			],
+			[
+				"page",
+				"app\\models\\PageModule.php"
+			],
+			[
+				"ContainerInterface",
+				"vendor\\container-interop\\container-interop\\docs\\ContainerInterface.md"
+			],
+			[
+				"adminscss",
+				"public\\assets\\scss\\admin.scss"
+			],
+			[
+				"admin",
+				"public\\assets\\scss\\admin.scss"
+			],
+			[
+				"routes",
+				"app\\routes-admin.php"
+			],
+			[
+				"create.service",
+				"app\\views\\admintools\\services\\create.service.twig"
+			],
+			[
+				"edit",
+				"app\\views\\admintools\\project-edit.twig"
+			],
+			[
+				"project-se",
+				"app\\views\\admintools\\project-setup.twig"
+			],
+			[
+				"serv",
+				"app\\models\\Service.php"
+			],
+			[
+				"route",
+				"app\\routes-admin.php"
+			],
+			[
+				"service",
+				"app\\models\\Service.php"
+			],
+			[
+				"rout",
+				"app\\routes-admin.php"
+			],
+			[
+				"routes-a",
+				"app\\routes-admin.php"
+			],
+			[
+				"project",
+				"app\\controllers\\ProjectController.php"
+			],
+			[
+				"layout",
+				"app\\views\\layout.twig"
+			],
+			[
+				"Service",
+				"app\\models\\Service.php"
+			],
+			[
+				"services.",
+				"app\\views\\services.twig"
+			],
+			[
+				"pagemo",
+				"app\\models\\PageModule.php"
+			],
+			[
+				"router",
+				"vendor\\slim\\slim\\Slim\\Router.php"
+			],
+			[
+				"home",
+				"app\\controllers\\HomeController.php"
+			],
+			[
+				"editc",
+				"app\\views\\admintools\\edit-content.twig"
+			],
+			[
+				"adminTools",
+				"app\\controllers\\AdminToolsController.php"
+			],
+			[
+				"contact",
+				"app\\views\\contact.twig"
+			],
+			[
+				".scss",
+				"public\\assets\\scss\\style.scss"
+			],
+			[
+				"project-set",
+				"app\\views\\admintools\\project-setup.twig"
+			],
+			[
+				"admin.s",
+				"public\\assets\\scss\\admin.scss"
+			],
+			[
+				"about.tw",
+				"app\\views\\about.twig"
+			],
+			[
+				"style.",
+				"public\\assets\\scss\\style.scss"
+			],
+			[
+				"style",
+				"public\\assets\\scss\\style.scss"
+			],
+			[
+				"Home",
+				"app\\views\\home.twig"
+			],
+			[
+				"contact.",
+				"app\\views\\contact.twig"
+			],
+			[
+				"HOME",
+				"app\\views\\home.twig"
+			],
+			[
+				"ImageContr",
+				"app\\controllers\\ImageController.php"
+			],
+			[
+				"model",
+				"vendor\\illuminate\\database\\Illuminate\\Database\\Eloquent\\Model.php"
+			],
+			[
+				"style.scss",
+				"public\\assets\\scss\\style.scss"
+			],
+			[
+				"admin.css",
+				"public\\assets\\scss\\admin.scss"
+			],
+			[
+				"notBn",
+				"vendor\\respect\\validation\\docs\\rules\\NotBlank.md"
+			],
+			[
+				"whitepsace",
+				"vendor\\respect\\validation\\docs\\rules\\NoWhitespace.md"
+			],
+			[
+				"phone",
+				"vendor\\respect\\validation\\library\\Rules\\Phone.php"
+			],
+			[
+				"Phone",
+				"vendor\\respect\\validation\\docs\\rules\\Phone.md"
+			],
+			[
+				"carbon",
+				"vendor\\nesbot\\carbon\\src\\Carbon\\Carbon.php"
+			],
+			[
+				"upload",
+				"vendor\\guzzlehttp\\psr7\\src\\UploadedFile.php"
+			],
+			[
+				"uploaded",
+				"vendor\\guzzlehttp\\psr7\\src\\UploadedFile.php"
+			],
+			[
+				"util",
+				"app\\models\\Util.php"
+			],
+			[
+				"middle",
+				"app\\middleware.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"js",
+				"vendor\\matthiasmullie\\minify\\src\\JS.php"
+			],
+			[
+				"slimrequest",
+				"vendor\\slim\\slim\\Slim\\Http\\Request.php"
+			],
+			[
+				"slimresponse",
+				"vendor\\slim\\slim\\Slim\\Http\\Response.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Joey\\Dropbox\\Web Work\\evan\\evan-redesign.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 435.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

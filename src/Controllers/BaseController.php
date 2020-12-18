@@ -1,8 +1,12 @@
 <?php
+
 namespace App\Controllers;
+
 use Slim\Http\Request;
 use Slim\Http\Response;
-abstract class BaseController {
+
+abstract class BaseController
+{
 	protected $container;
 	protected $logger;
 
@@ -13,7 +17,8 @@ abstract class BaseController {
 	 * @param array  $data        Named argument replacement data
 	 * @param array  $queryParams Optional query string parameters
 	 */
-	public function responseWithFlash(Request $request, Response $response, array $data, string $route = '', array $queryParams = []) {
+	public function responseWithFlash(Request $request, Response $response, array $data, string $route = '', array $queryParams = [])
+	{
 		$this->container->flash->addMessage('data', $data);
 		return $response->withRedirect($this->container->router->pathFor($route, $queryParams));
 	}
@@ -21,10 +26,11 @@ abstract class BaseController {
 	/**
 	 * Get base directory from the request object
 	 * @param  Request $request current request
-	 * @return String base directory
+	 * @return String|Null base directory
 	 */
-	public function getBaseDirectory(Request $request) {
-		return (string)$request->getUri()->withPath('')->withQuery('')->withFragment('');
+	public function getBaseDirectory(Request $request = null)
+	{
+		return !is_null($request) ? (string)$request->getUri()->withPath('')->withQuery('')->withFragment('') : null;
 	}
 
 	/**
@@ -35,10 +41,21 @@ abstract class BaseController {
 	 * @param  string $msg   [description]
 	 * @return [type]           [description]
 	 */
-	public function log(string $type, string $function, string $msg) {
+	public function log(string $type, string $function, string $msg)
+	{
 		if ($this->logger != null) {
 			$this->logger->{$type}($function . ": " . $msg);
-		}
-		else throw new \Exception('Logger instance is null', 1);
+		} else throw new \Exception('Logger instance is null', 1);
+	}
+
+	/**
+	 * @param Request $request
+	 * @param string $cookieName
+	 * @return string
+	 */
+	public function getCookieValue(Request $request, string $cookieName = '')
+	{
+		$cookies = $request->getCookieParams();
+		return isset($cookies[$cookieName]) ? $cookies[$cookieName] : null;
 	}
 }
