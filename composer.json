@@ -31,6 +31,5 @@
         "files": [
             "helpers.php"
         ]
-    },
-    "prefer-stable": true
+    }
 }
