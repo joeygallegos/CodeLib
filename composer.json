@@ -1,0 +1,36 @@
+{
+    "name": "joeygallegos/jumpin",
+    "description": "Jumpstart files for Eloquent/Slim projects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joey Gallegos",
+            "email": "joey@joeygallegos.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.4",
+        "mailgun/mailgun-php": "^3.1",
+        "kriswallsmith/buzz": "^1.1",
+        "nyholm/psr7": "^1.3",
+        "vlucas/phpdotenv": "^5.2",
+        "monolog/monolog": "^2.1",
+        "php": "^7.1.3|^8.0",
+        "illuminate/database": "^5.8 || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "^5.8 || ^6.0 || ^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JumpIn\\": "src/"
+        },
+        "classmap": [
+            "Controllers",
+            "Middleware",
+            "Models"
+        ],
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "prefer-stable": true
+}
